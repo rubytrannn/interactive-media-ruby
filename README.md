@@ -1,3 +1,4 @@
 # interactive-media-ruby
-following the repository for IMW demo
+following the repository for the IMW demo
+
 exercise one
