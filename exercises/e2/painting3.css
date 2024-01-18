@@ -1,5 +1,13 @@
 body{
-    background-color: #B4B4B4;
+    background-color: #EBDED4;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 h1{
@@ -10,14 +18,77 @@ a{
     font-size: 20px;
 }
 
+
+
 .painting-3{
     display: grid;
-    width: 600px;
+    width: 450px;
     height: 600px;
+    background-position: center;
 
     border: 1px solid black;
     /*for testing*/
 
-    grid-template-columns: repeat(15, 1fr);
-    grid-template-rows: repeat(15, 1fr);
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+.pink{
+    background-color: #FE757A;
+}
+
+.green {
+    background-color: #7AA556;
+}
+
+.orange{
+    background-color: #EFA53A;
+}
+
+.teal{
+    background-color: #0F8AA9;
+}
+
+.cream{
+    background-color: #F3E0C0;
+}
+
+.purple{
+    background-color: #C470E0;
+}
+
+.white{
+    background-color: #F2F2F2;
+}
+
+.border-top-pink1{
+    border-top: 20px solid #FE757A;
+}
+
+.border-top-pink2{
+    border-top: 10px solid #FE757A;
+}
+
+.border-bottom-pink1{
+    border-bottom: 10px solid #FE757A ;
+}
+
+.border-bottom-pink2{
+    border-bottom: 20px solid #FE757A;
+}
+
+.border-bottom-cream{
+    border-bottom: 10px solid #F3E0C0;
+}
+
+.border-top-cream{
+    border-top: 10px solid #F3E0C0;
+}
+
+.border-left-green{
+    border-right: 25px solid #7AA556;
+}
+
+.border-top-teal{
+    border-top: 18px solid #F3E0C0;
 }
