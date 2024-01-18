@@ -1,0 +1,104 @@
+body{
+    background-color: #B4B4B4;
+}
+
+h1{
+    font-size: 40px;
+}
+
+a{
+    font-size: 20px;
+}
+
+
+.painting-2{
+    display: grid;
+    width: 600px;
+    height: 600px;
+
+    border: 1px solid black;
+    /*for testing*/
+
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+}
+
+.indigo{
+    background-color: #242E41;
+}
+
+.light-green{
+    background-color: #E0EED6;
+}
+
+.yellow{
+    background-color: #FEC414;
+}
+
+.light-blue{
+    background-color: #0885E5;
+}
+
+.green{
+    background-color: #199565;
+}
+
+.pink{
+    background-color: #FBD4D1;
+}
+
+.blue{
+    background-color: #0255D7;
+}
+
+.dark-red{
+    background-color: #CD373D ;
+}
+
+.cream{
+    background-color: #FAE8E5;
+}
+
+.red{
+    background-color: #EA3D3B;
+}
+
+.black{
+    background-color: #211F22;
+}
+
+.orange{
+    background-color: #FD9E34;
+}
+
+.border-bottom1{
+    border-bottom: 20px solid #FEC414;
+}
+
+.border-bottom2{
+    border-bottom: 30px solid #FE6B3F;
+}
+
+.border-bottom3{
+    border-bottom: 20px solid #EA3D3B;
+}
+
+.border-top{
+    border-top: 20px solid #10A2D9;
+}
+
+.border-left{
+    border-left: 8px solid #10A2D9 ;
+}
+
+.border-top2{
+    border-top: 15px solid #242E41;
+}
+
+.border-top3{
+    border-top: 8px solid #FFAC7D;
+}
+
+.border-top4{
+    border-top: 15px solid #A04341;
+}
