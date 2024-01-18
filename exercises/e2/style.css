@@ -1,0 +1,47 @@
+body{
+    background-color: #B4B4B4;
+}
+
+h1{
+    font-size: 40px;
+}
+
+a{
+    font-size: 20px;
+}
+
+.painting-1{
+    display: grid;
+    width: 600px;
+    height: 600px;
+
+    border: 1px solid black;
+    /*for testing*/
+
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+}
+
+.cream{
+    background-color: #FDF9F1;
+}
+
+.red{
+    background-color: #FF3532;
+}
+
+.blue{
+    background-color: #009BCC;
+}
+
+.yellow{
+    background-color: #FDD900;
+}
+
+.border-right{
+    border-right: 20px solid #4D4D42;
+}
+
+.border-bottom{
+    border-bottom: 20px solid #4D4D42;
+}
