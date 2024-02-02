@@ -1,0 +1,165 @@
+body{
+    background-color: #d6d6d6;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.adobe-title{
+    font-family: "xunga-variable", sans-serif;
+    font-variation-settings: "STRS" -50, "wdth" 100;
+    font-size: 240%;
+    color: #2c2b30;  
+    transition: all 0.3s ease;
+}
+
+.adobe-title:hover {
+    transform: scale(1.0);
+    color: #ff5733; 
+}
+
+.frame{
+    display: grid;
+    width: 600px;
+    height: 600px;
+    /* border: 1px solid black; */
+}
+
+
+.monospace{
+    font-family: monospace;
+}
+
+.adobe-font {
+    font-family: "solvent", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.google-font {
+    font-family: "Rubik Burned", system-ui;
+    letter-spacing: 10px;
+    color: #2c2b30;
+    font-size: 24px;
+    display: inline;
+    
+}
+
+.highlight {
+    transition: all 0.3s ease;
+  }
+
+.highlight:hover {
+    color: #ff5733; 
+  }
+
+
+/* Self-hosted Font */
+@font-face {
+    font-family: 'Bespoke';
+    src: url('fonts/Bespoke-TQSfUvYNGG.woff');
+    src: url('fonts/Bespoke-TQSfUvYNGG.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Bespoke-TQSfUvYNGG.woff') format('woff'),
+       url('fonts/Bespoke-TQSfUvYNGG.ttf') format('truetype'),
+       url('fonts/Bespoke-TQSfUvYNGG.svg#Bespoke-TQSfUvYNGG') format('svg');
+  }
+
+
+.self-hosted {
+    font-family: 'Bespoke', sans-serif;
+    transition: color 750ms, transform 750ms;
+    font-size: 18px;
+
+    &:hover{
+        animation: flip 0.7s ease;
+    }
+}
+
+/* Flip the Self-hosted Font */
+@keyframes flip {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(180deg);
+    }
+  }
+
+  @keyframes flip {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(180deg);
+    }
+  }
+
+/* disappear effect */
+.disappear {
+    transition: all 0.5s ease;
+  }
+
+.disappear:hover {
+    opacity: 0; 
+  }
+
+/* glow effect */
+.glow {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c2b30; /* Initial text color */
+    transition: color 0.5s ease;
+  }
+  
+  .glow:hover {
+    color: #ff5733; /* Color change on hover */
+    animation: glow 1s infinite alternate; /* Apply glow animation */
+  }
+  
+  @keyframes glow {
+    0% {
+      text-shadow: 0 0 10px #ff5733, 0 0 20px #ff5733, 0 0 30px #ff5733; /* Initial glow effect */
+    }
+    100% {
+      text-shadow: 0 0 20px #ff5733, 0 0 30px #ff5733, 0 0 40px #ff5733; /* Final glow effect */
+    }
+  }
+
+  /* bounce effect */
+  .google-font{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: flex;
+  }
+
+
+  .bounce{
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Initial text color */
+    transition: all 0.5s ease;
+  }
+  
+  .bounce:hover {
+    animation: bounce 0.5s;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  
