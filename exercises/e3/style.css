@@ -27,7 +27,7 @@ body{
     display: grid;
     width: 600px;
     height: 600px;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 
@@ -132,12 +132,11 @@ body{
 
   /* bounce effect */
   .google-font{
-    display: grid;
+    /* display: grid; */
     justify-content: center;
     align-items: center;
     height: flex;
   }
-
 
   .bounce{
     font-size: 24px;
