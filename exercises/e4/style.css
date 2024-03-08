@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header {
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 36px;
+}
+
+.site-name{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+ul {
+    list-style-type: none;
+
+    li {
+        font-size: 18px;
+        display: inline-block;
+
+        &:first-child{
+            margin-right: 44px;
+        }
+
+        &:nth-child(2){
+            margin-right: 44px;
+        }
+    }
+}
+
+.hero-section {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 120px;
+    line-height: 106px;
+    margin-bottom: 72px;
+    padding: 154px 245px 0px 245px;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.call-to-section{
+    text-transform: uppercase;
+    font-size: 12px;
+    display: flex;
+    padding: 521px 546px 196px 547px; 
+}
+
+.info-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 320px;
+}
+
+.info-section-item{
+    border-top: 0px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.sub-header{
+    font-size: 22px;
+    padding: 31px 36px 0px 36px;
+    display: flex;
+}
+
+.description {
+    font-size: 14px;
+    padding: 12px 37px;
+    font-weight: 500;
+}
+
+.sub-call-to-action-one{
+    font-size: 12px;
+    display: flex;
+    padding-top: 153px;
+    padding-left: 37px;
+    padding-bottom: 30px;
+}
+
+.sub-call-to-action-two{
+    font-size: 12px;
+    display: flex;
+    padding-top: 136px;
+    padding-left: 37px;
+    padding-bottom: 30px;
+}
+
+.sub-call-to-action-three{
+    font-size: 12px;
+    display: flex;
+    padding-top: 144px;
+    padding-left: 37px;
+    padding-bottom: 30px;
+}
+
+footer {
+    padding: 31px 36px;
+    padding-top: 31px;
+    padding-left: 37px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .social-link {
+        ul {
+            li {
+                font-size: 14px;
+                font-weight: 600;
+            }
+        }
+    }
+
+    nav {
+        ul {
+            li {
+                margin-right: 0 !important;
+                display: block;
+                font-size: 12px;
+                line-height: 32px;
+            }
+        }
+
+    }
+
+}
+
+
+.about-name{
+    font-size: 18px;
+    padding-bottom: 9px;
+    width: 116px;
+}
+
+
+.about-description{
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 43px;
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+}
