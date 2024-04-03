@@ -1,0 +1,646 @@
+body{
+    background-image: linear-gradient(#091d36,#5e83ba);
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.subtitle {
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 110%;
+    text-align: center;
+    color: rgb(252, 190, 17);
+    z-index: 2;
+}
+
+/* Day One Text Holder */
+.cloud-one {
+    width: 168px; 
+    height: 50px;
+    background-image: linear-gradient(rgba(57, 78, 121, 0.5), #091d36);
+    border-radius: 50px; 
+    
+    position: absolute; 
+    top: 4%; 
+    left: 2%; 
+}
+
+.day-one-text {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    font-size: 20px; 
+    color: white; 
+}
+
+/* Next Day Text Holder */
+.cloud-two{
+    width: 168px; 
+    height: 50px;
+    background-image: linear-gradient(rgba(57, 78, 121, 0.5), #091d36);
+    border-radius: 50px; 
+    
+    position: absolute; 
+    top: 4%; 
+    left: 87%; 
+}
+
+.next-day-text {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    font-size: 20px; 
+    color: white; 
+}
+
+
+/* mountains - first layer */
+.triangle-medium-one {
+    border-left: 20vw solid transparent;
+    border-right: 20vw solid transparent;
+    border-bottom: calc(66vh + 1px) solid rgba(9, 29, 54, 0.65); 
+
+    position: absolute;
+    left: 25%;
+    bottom: 0;
+    transform: translateX(-90%);
+}
+
+.triangle-medium-two {
+    border-left: 22vw solid transparent;
+    border-right: 22vw solid transparent;
+    border-bottom: calc(54vh + 1px) solid rgba(9, 29, 54, 0.65); 
+
+    position: absolute;
+    left: 49%;
+    bottom: 0;
+    transform: translateX(-90%);
+}
+
+.triangle-medium-three {
+    border-left: 18vw solid transparent;
+    border-right: 18vw solid transparent;
+    border-bottom: calc(49vh + 1px) solid rgba(9, 29, 54, 0.65); 
+
+    position: absolute;
+    left: 65%;
+    bottom: 0;
+    transform: translateX(-90%);
+}
+
+.triangle-medium-four {
+    border-left: 18vw solid transparent;
+    border-right: 18vw solid transparent;
+    border-bottom: calc(70vh + 1px) solid rgba(9, 29, 54, 0.65); 
+
+    position: absolute;
+    left: 88%;
+    bottom: 0;
+    transform: translateX(-90%);
+}
+
+.triangle-medium-five {
+    border-left: 25vw solid transparent;
+    border-right: 25vw solid transparent;
+    border-bottom: calc(56vh + 1px) solid rgba(9, 29, 54, 0.65); 
+
+    position: absolute;
+    left: 95%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+
+/* second layer */
+.triangle-big-center {
+    border-left: 25vw solid transparent; 
+    border-right: 25vw solid transparent;
+    border-bottom: calc(36vh + 1px) solid #091d36;
+
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+
+
+}
+
+.triangle-big-left {
+    border-left: 25vw solid transparent; 
+    border-right: 25vw solid transparent; 
+    border-bottom: calc(29vh + 1px) solid #091d36;
+
+    position: absolute;
+    left: -24%;
+    bottom: 0;
+    transform: translateX(20%);
+}
+
+.triangle-big-right {
+    border-left: 25vw solid transparent; 
+    border-right: 25vw solid transparent; 
+    border-bottom: calc(29vh + 1px) solid #091d36;
+
+    position: absolute;
+    left: 53%;
+    bottom: 0;
+    transform: translateX(20%);
+}
+
+/* third layer */
+.triangle-medium-center {
+    width: 47%;
+    height: 34%;
+
+    margin: auto;
+    background: linear-gradient(#091d36 0%, #394e79 180%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+
+}
+
+.triangle-medium-left {
+    width: 47%;
+    height: 27%;
+
+    margin: auto;
+    background: linear-gradient(#091d36 0%, #394e79 180%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+    position: absolute;
+    left: -21.9%;
+    bottom: 0;
+    transform: translateX(20%);
+}
+
+.triangle-medium-right {
+    width: 47%;
+    height: 27%;
+
+    margin: auto;
+    background: linear-gradient(#091d36 0%, #394e79 180%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+    position: absolute;
+    left: 55.2%;
+    bottom: 0;
+    transform: translateX(20%);
+}
+
+/* fourth layer */
+.triangle-small-center {
+
+    width: 37%;
+    height: 24%;
+    margin: auto;
+    background: linear-gradient(#091d36 0%, #394e79 120%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+
+}
+
+.triangle-small-left {
+    width: 37%;
+    height: 17%;
+    margin: auto;
+    background: linear-gradient(#091d36 0%, #394e79 120%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+    position: absolute;
+    left: -21.9%;
+    bottom: 0;
+    transform: translateX(20%);
+}
+
+.triangle-small-right {
+    width: 27%;
+    height: 17%;
+    margin: auto;
+    background: linear-gradient(#091d36 0%, #394e79 120%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+    position: absolute;
+    left: 55.2%;
+    bottom: 0;
+    transform: translateX(20%);
+}
+
+
+/* stars - cirlces */
+.star-one {
+    width: 5px; 
+    height: 5px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 17%; 
+    left: 59%; 
+}
+
+.star-two {
+    width: 2px; 
+    height: 2px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 5%; 
+    left: 40%; 
+}
+
+.star-three{
+    width: 5px; 
+    height: 5px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 27%; 
+    left: 19%; 
+}
+
+.star-four {
+    width: 2px; 
+    height: 2px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 37%; 
+    left: 30%; 
+}
+
+.star-five {
+    width: 2px; 
+    height: 2px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 29%; 
+    left: 80%; 
+}
+
+.star-six {
+    width: 2px; 
+    height: 2px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 37%; 
+    left: 30%; 
+}
+
+.star-seven {
+    width: 5px; 
+    height: 5px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 47%; 
+    left: 57%; 
+}
+
+.star-eight {
+    width: 2px; 
+    height: 2px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 32%; 
+    left: 60%; 
+}
+
+.star-nine {
+    width: 2px; 
+    height: 2px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 37%; 
+    left: 90%; 
+}
+
+.star-ten {
+    width: 5px; 
+    height: 5px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 27%; 
+    left: 30%; 
+}
+
+.star-eleven {
+    width: 1.5px; 
+    height: 1.5px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 41%; 
+    left: 20%; 
+}
+
+.star-twelve {
+    width: 4px; 
+    height: 4px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 35%; 
+    left: 45%; 
+}
+
+.star-thirteen {
+    width: 4px; 
+    height: 4px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 22%; 
+    left: 39%; 
+}
+
+.star-fourteen {
+    width: 2px; 
+    height: 2px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 25%; 
+    left: 55%; 
+}
+
+.star-fifteen {
+    width: 3px; 
+    height: 3px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 7%; 
+    left: 65%; 
+}
+.star-sixteen {
+    width: 3px; 
+    height: 3px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 15%; 
+    left: 86%; 
+}
+
+.star-seventeen {
+    width: 2px; 
+    height: 2px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 30%; 
+    left: 3%; 
+}
+
+.star-eighteen {
+    width: 3px; 
+    height: 3px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 20%; 
+    left: 10%; 
+}
+
+.star-nineteen {
+    width: 2px; 
+    height: 2px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 42%; 
+    left: 85%; 
+}
+
+.star-twenty {
+    width: 2px; 
+    height: 2px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 10%; 
+    left: 75%; 
+}
+
+.star-twentyone {
+    width: 2px; 
+    height: 2px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 10%; 
+    left: 75%; 
+}
+
+.star-twentytwo {
+    width: 2px; 
+    height: 2px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 10%; 
+    left: 22%; 
+}
+
+.star-twentythree {
+    width: 3px; 
+    height: 3px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 47%; 
+    left: 26%; 
+}
+
+.star-twentyfour {
+    width: 4px; 
+    height: 4px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 7%; 
+    left: 15%; 
+}
+
+.star-twentyfive {
+    width: 3px; 
+    height: 3px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 33%; 
+    left: 14%; 
+}
+
+.star-twentysix {
+    width: 1.5px; 
+    height: 1.5px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 13%; 
+    left: 34%; 
+}
+
+.star-twentyseven {
+    width: 1px; 
+    height: 1px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 41%; 
+    left: 37%; 
+}
+
+.star-twentyeight {
+    width: 3px; 
+    height: 3px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 12%; 
+    left: 48%; 
+}
+
+.star-twentynine {
+    width: 2px; 
+    height: 2px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 49%; 
+    left: 42%; 
+}
+
+.star-thirty {
+    width: 2px; 
+    height: 2px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 4%; 
+    left: 56%; 
+}
+
+.star-thirtyone {
+    width: 1.5px; 
+    height: 1.5px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 38%; 
+    left: 52%; 
+}
+
+.star-thirtytwo {
+    width: 1px; 
+    height: 1px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 39%; 
+    left: 69%; 
+}
+
+.star-thirtythree {
+    width: 3px; 
+    height: 3px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 55%; 
+    left: 64%; 
+}
+
+.star-thirtyfour {
+    width: 1px; 
+    height: 1px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 39%; 
+    left: 69%; 
+}
+
+.star-thirtyfive {
+    width: 3px; 
+    height: 3px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 55%; 
+    left: 64%; 
+}
+
+.star-thirtysix {
+    width: 5px; 
+    height: 5px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 5%; 
+    left: 81%; 
+}
+
+.star-thirtyseven {
+    width: 2px; 
+    height: 2px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 22%; 
+    left: 70%; 
+}
+
+.star-thirtyeight {
+    width: 1.5px; 
+    height: 1.5px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 23%; 
+    left: 93%; 
+}
+
+.star-thirtynine {
+    width: 4px; 
+    height: 4px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 42%; 
+    left: 98%; 
+}
+
+.star-forty {
+    width: 1.5px; 
+    height: 1.5px; 
+    background-color: white; 
+    border-radius: 50%;  
+    position: absolute; 
+    top: 22%; 
+    left: 50%; 
+}
