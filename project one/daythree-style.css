@@ -1,0 +1,243 @@
+body{
+    background-image: linear-gradient(#C09664 -40%,#e0d6be);
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.subtitle {
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 110%;
+    text-align: center;
+    color: rgb(252, 190, 17);
+    z-index: 2;
+}
+
+/* Day Two Text Holder */
+.cloud-one {
+    width: 168px; 
+    height: 50px;
+    background-image: linear-gradient(rgba(243, 173, 88, 0.5), #bf6735);
+    border-radius: 50px; 
+    
+    position: absolute; 
+    top: 4%; 
+    left: 2%; 
+}
+
+.day-two-text {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    font-size: 20px; 
+    color: white; 
+}
+
+/* Rewind Text Holder */
+.cloud-two{
+    width: 168px; 
+    height: 50px;
+    background-image: linear-gradient(rgba(243, 173, 88, 0.5), #bf6735);
+    border-radius: 50px; 
+    
+    position: absolute; 
+    top: 4%; 
+    left: 87%; 
+}
+
+.rewind-text {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    font-size: 20px; 
+    color: white; 
+}
+
+/* circle as the sun */
+.circle {
+    width: 100px; 
+    height: 100px; 
+    background-color: #bf6735; 
+    border-radius: 50%; 
+    
+    position: absolute; 
+    top: 12%; 
+    left: 33%;
+}
+
+
+.oval-one-one {
+    position: absolute;
+    width: 30%; 
+    height: 400px; 
+    border-radius: 50%;
+    background-image: linear-gradient(#C09664 0%,#F3AD58 80%);
+    bottom: 15%;
+    left: -5%;
+}
+
+.oval-one-two {
+    position: absolute;
+    width: 40%; 
+    height: 400px; 
+    border-radius: 50%;
+    background-image: linear-gradient(#C09664 0%,#F3AD58 80%);
+    bottom: 15%;
+    left: 18%;
+}
+
+.oval-one-three {
+    position: absolute;
+    width: 30%; 
+    height: 400px; 
+    border-radius: 50%;
+    background-image: linear-gradient(#C09664 0%,#F3AD58 80%);
+    bottom: 15%;
+    left: 50%;
+}
+
+.oval-one-four {
+    position: absolute;
+    width: 40%; 
+    height: 400px; 
+    border-radius: 50%;
+    background-image: linear-gradient(#C09664 0%,#F3AD58 80%);
+    bottom: 15%;
+    left: 70%;
+}
+
+
+/* second layer of oval */
+.oval-two-one {
+    position: absolute;
+    width: 30%; 
+    height: 400px; 
+    border-radius: 50%;
+    background-image: linear-gradient(#F3AD58 0%,#BF6735 65%); 
+    bottom: 0%;
+    left: -10%;
+}
+
+.oval-two-two {
+    position: absolute;
+    width: 30%; 
+    height: 400px; 
+    border-radius: 50%;
+    background-image: linear-gradient(#F3AD58 0%,#BF6735 65%); 
+    bottom: 0%;
+    left: 13%;
+}
+
+.oval-two-three {
+    position: absolute;
+    width: 40%; 
+    height: 400px; 
+    border-radius: 50%;
+    background-image: linear-gradient(#F3AD58 0%,#BF6735 65%); 
+    bottom: 0%;
+    left: 36%;
+}
+
+.oval-two-four {
+    position: absolute;
+    width: 34%; 
+    height: 400px; 
+    border-radius: 50%;
+    background-image: linear-gradient(#F3AD58 0%,#BF6735 65%); 
+    bottom: 0%;
+    left: 70%;
+}
+
+/* third layer of oval */
+.oval-three-one {
+    position: absolute;
+    width: 40%; 
+    height: 400px; 
+    border-radius: 50%;
+    background-image: linear-gradient(#BF6735 0%,#647360 80%);
+    bottom: -17%;
+    left: -5%;
+}
+
+.oval-three-two {
+    position: absolute;
+    width: 30%; 
+    height: 400px; 
+    border-radius: 50%;
+    background-image: linear-gradient(#BF6735 0%,#647360 80%);
+    bottom: -17%;
+    left: 25%;
+}
+
+.oval-three-three {
+    position: absolute;
+    width: 40%; 
+    height: 400px; 
+    border-radius: 50%;
+    background-image: linear-gradient(#BF6735 0%,#647360 80%);
+    bottom: -17%;
+    left: 46%;
+}
+
+.oval-three-four {
+    position: absolute;
+    width: 34%; 
+    height: 400px; 
+    border-radius: 50%;
+    background-image: linear-gradient(#BF6735 0%,#647360 80%);
+    bottom: -17%;
+    left: 77%;
+}
+
+
+/* forth layer of oval */
+.oval-four-one {
+    position: absolute;
+    width: 30%; 
+    height: 400px; 
+    border-radius: 50%;
+    background-image: linear-gradient(#647360 0%,#C09664 80%); 
+    bottom: -35%;
+    left: -10%;
+}
+
+.oval-four-two {
+    position: absolute;
+    width: 30%; 
+    height: 400px; 
+    border-radius: 50%;
+    background-image: linear-gradient(#647360 0%,#C09664 80%); 
+    bottom: -35%;
+    left: 13%;
+}
+
+.oval-four-three {
+    position: absolute;
+    width: 40%; 
+    height: 400px; 
+    border-radius: 50%;
+    background-image: linear-gradient(#647360 0%,#C09664 80%); 
+    bottom: -35%;
+    left: 36%;
+}
+
+.oval-four-four {
+    position: absolute;
+    width: 34%; 
+    height: 400px; 
+    border-radius: 50%;
+    background-image: linear-gradient(#647360 0%,#C09664 80%); 
+    bottom: -35%;
+    left: 70%;
+}
