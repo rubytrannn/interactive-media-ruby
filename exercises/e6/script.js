@@ -49,7 +49,7 @@ conditionContainer.addEventListener("mouseout", function () {
     square.style.backgroundColor = "lightsalmon";
 });
 
-// time
+// increase font size over time
 var interval = setInterval(update, 1000);
 var i = 100;
 
