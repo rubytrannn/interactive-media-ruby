@@ -50,7 +50,7 @@ conditionContainer.addEventListener("mouseout", function () {
 });
 
 // time
-// var interval = setInterval(update, 1000);
+var interval = setInterval(update, 1000);
 var i = 100;
 
 function update() {
