@@ -1,4 +1,262 @@
 body{
-    background-color: #d6d6d6;
+    background-color: black;
     text-align: center;
+    color: white;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    /* height: 100vh; */
+    justify-content: center;
+    align-items: center;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-family: "acier-bat-noir", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+    font: 200%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    width: 100vw;
+    height: 100px;
+    display: table-row;
+    grid-auto-rows: calc(100vh/7);
+}
+
+.line-one {
+    width: 100vw;
+    height: 100px;
+    background-color: #471452;
+    display: flex;
+}
+
+.shape-one {
+    font-size: 250%;
+    width: 50vw; 
+    height: 100px;
+    background-color: #CF3136;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+    left: -10%; 
+}
+
+.shape-two {
+    width: 70vw; 
+    height: 100px;
+    background-color: #248699 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+    left: -10%; 
+}
+
+
+.line-two {
+    width: 100vw;
+    height: 100px;
+    background-color: #F98D2A;
+    display: flex;
+}
+
+.shape-three {
+    width: 50vw; 
+    height: 100px;
+    background-color: #000034;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+    left: 10%; 
+}
+
+.shape-four {
+    font-size: 250%;
+    width: 70vw; 
+    height: 100px;
+    background-color: #471452;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    left: 20%; 
+}
+
+.line-three {
+    width: 100vw;
+    height: 100px;
+    background-color: #CF3136;
+    display: flex;
+}
+
+.shape-five {
+    font-size: 250%;
+    width: 50vw; 
+    height: 100px;
+    background-color: #248699;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+    left: 5%; 
+}
+
+.shape-six {
+    width: 70vw; 
+    height: 100px;
+    background-color: #F98D2A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    left: 10%; 
+}
+
+.line-four {
+    width: 100vw;
+    height: 100px;
+    background-color: #000034;
+    display: flex;
+}
+
+.shape-seven {
+    width: 50vw; 
+    height: 100px;
+    background-color: #471452;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+    left: 7%; 
+}
+
+.shape-eight {
+    font-size: 250%;
+    width: 70vw; 
+    height: 100px;
+    background-color: #CF3136;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    left: 13%; 
+}
+
+.line-five {
+    width: 100vw;
+    height: 100px;
+    background-color: #248699;
+    display: flex;
+}
+
+.shape-nine {
+    font-size: 250%;
+    width: 50vw; 
+    height: 100px;
+    background-color: #F98D2A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+    left: 9%; 
+}
+
+.shape-ten {
+    width: 70vw; 
+    height: 100px;
+    background-color: #000034;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    left: 14%; 
+}
+
+.line-six {
+    width: 100vw;
+    height: 100px;
+    background-color: #471452;
+    display: flex;
+}
+
+.shape-eleven {
+    width: 50vw; 
+    height: 100px;
+    background-color: #CF3136;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+    left: 6%; 
+}
+
+.shape-twelve {
+    font-size: 250%;
+    width: 70vw; 
+    height: 100px;
+    background-color: #248699;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    left: 11%; 
+}
+
+.line-seven {
+    width: 100vw;
+    height: 100px;
+    background-color: #F98D2A;
+    display: flex;
+}
+
+.shape-thirteen {
+    font-size: 250%;
+    width: 50vw; 
+    height: 100px;
+    background-color: #000034;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+    left: 8%; 
+}
+
+.shape-forteen {
+    width: 70vw; 
+    height: 100px;
+    background-color: #471452;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    left: 13%; 
+}
+
+
